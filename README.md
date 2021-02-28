@@ -1,6 +1,8 @@
 # awscli-hugo-docker
 This image, based on the official [amazon/aws-cli](https://hub.docker.com/r/amazon/aws-cli) image, ships the [Hugo](https://gohugo.io) binary.
 
+The Dockerfile in this repository is automatically built by Docker Hub, publicly available at https://hub.docker.com/r/birkhofflee/awscli-hugo.
+
 Suitable for CI pipeline use, GitLab CI for example:
 
 ```yaml
